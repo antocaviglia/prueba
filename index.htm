@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>infoRAD</title>
+	<html lang="es">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ 	<link rel="icon" href="imgs/favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+<section class="premenu">
+	<!--<nav class="navbar navbar-light bg-light">
+	  <div class="container">
+	    <a class="navbar-brand" href="#">
+	      <img src="imgs/logo.png" alt="logo" class="imglogo">
+	    </a>
+	    <i class="fal fa-user-md"></i>
+	    <i class="far fa-hospital"></i>
+	  </div>
+	</nav>-->
+	<div class="row no-gutters">
+		<div class="col-lg-4">
+			<img src="imgs/logo.png" alt="logo" class="imglogo">
+		</div>
+		<div class="col-lg-4"></div>
+		<div class="col-lg-4 iconos">
+			<i class="fal fa-user-md"></i>
+		    <i class="far fa-hospital"></i>
+		</div>
+	</div>
+</section>
+<section class="menu">
+	<nav class="navbar navbar-expand-lg navbar-light menucolor">
+	  <div class="container-fluid">
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link menutext active" aria-current="page" href="#">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link menutext active" aria-current="page" href="#servicios">SERVICIOS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link menutext active" aria-current="page" href="#">NOSOTROS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link menutext active" aria-current="page" href="#">CONTACTO</a>
+				</li>
+			</ul>
+	    </div>
+	  </div>
+	</nav>
+</section>
+<section class="imagenportada">
+	<div class="col-lg-12 tex-img1"> </div>
+</section>
+<section class="cards">
+	<div class="card-deck">
+	  <div class="card">
+	    <img class="card-img-top" src="imgs/info.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Informes convencionales</h5>
+	      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="imgs/celu.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Informes Online</h5>
+	      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <img class="card-img-top" src="imgs/interconsultas.jpg" alt="Card image cap">
+	    <div class="card-body">
+	      <h5 class="card-title">Interconsultas Online</h5>
+	      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+	    </div>
+	  </div>
+	</div>
+</section>
+<section class="separdor"></section>
+<section class="servicios" id="servicios">
+	<div class="row iconosverdes no-gutters">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10"><h2 class="">Servicios</h2></div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-3">
+			<img class="img_icons" src="imgs/mg1.png">
+		</div>
+		<div class="col-lg-4">
+			<img class="img_icons" src="imgs/rx.png">
+		</div>
+		<div class="col-lg-3">
+			<img class="img_icons" src="imgs/tc1.png">
+		</div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-1"></div>
+		<div class="col-lg-3">
+			<img class="img_icons" src="imgs/rm1.png">
+		</div>
+		<div class="col-lg-4">
+			<img class="img_icons" src="imgs/altura.png">
+		</div>
+		<div class="col-lg-3">
+			<img class="img_icons" src="imgs/pres.png">
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
+
+</section>
+<section class="contacto row">
+	<div class="col-lg-3 col-sm-2"></div>
+		<!-- formulario de contacto-->
+	<div class="col-lg-6 col-sm-5 cont-form" id="">
+		<form class="" method="POST" id="f_contacto" name="f_contacto" enctype="multipart/form-data" action="formulario.php" >
+
+			<div class="form-group conteiner" id="">
+				<label for="nombre_inst"><strong>Institución</strong></label>
+				<div id="error_nombre_inst" class="error_carga"><div class="cartel_error_carga" id="cartel_error_carga_nombre_inst"></div></div>
+				<input class="form-control" id="nombre_inst" type="text" name="nombre_inst" required="required" onkeypress="ocultarerror('error_nombre_inst')" ><br>
+
+				<label for="nombre_ap"><strong>Nombre y Apellido (contacto)</strong></label>
+				<div id="error_nombre_ap" class="error_carga"><div class="cartel_error_carga" id="cartel_error_carga_nombre_ap"></div></div>
+				<input class="form-control" id="nombre_ap" type="text" name="nombre_ap" required="required" onkeypress="ocultarerror('error_nombre_ap')" ><br>
+
+				<label for="correo"><strong>Correo</strong></label>
+				<div id="error_correo" class="error_carga"><div class="cartel_error_carga" id="cartel_error_carga_correo"></div></div>
+				<input class="form-control" id="correo" type="email" name="correo" required="required" onkeypress="ocultarerror('error_correo')"><br>
+
+				<label for="tel"><strong>Teléfono</strong></label>
+				<div id="error_tel" class="error_carga"><div class="cartel_error_carga" id="cartel_error_carga_tel"></div></div>
+				<input class="form-control" id="tel" type="text" name="tel" required="required"
+				onkeypress="ocultarerror('error_tel')"><br>				
+            </div>
+		</form>
+
+		<button onclick="enviar()" type="button" id="btnenviar" class="btn btn-enviar_formulario">ENVIAR</button>
+			<div class="clearfix">
+  				<div class="spinner-border float-center" id="progreso" style="display: none;" role="status">
+    				<span class="sr-only">Loading...</span>
+  				</div>
+			</div>
+	</div>
+	<div class="col-lg-3 col-sm-2"></div>
+
+	<!--COMIENZO MODAL -->
+	<div class="modal" id="edit_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header m_cerrar">
+						<h5 class="modal-title" id="exampleModalCenterTitle">Rebrit SRL</h5>
+					</div>
+					<div class="modal-body">
+						<p id="cont_modal"></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" onclick="cerrar_modal()">CERRAR</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--FIN DE MODAL-->
+	<!--  formulario de direccion de rebrit-->
+</section>
+<section class="footer">
+	
+</section>
+</body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/ab5f6c4380.js" crossorigin="anonymous"></script>
+
+
+</html>

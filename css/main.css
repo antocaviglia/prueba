@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Tenor Sans';
+  src: url('fonts/TenorSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+	font-family: Tenor Sans;
+
+}
+.imglogo{
+	height: 16vh;
+	padding: 1%;
+}
+
+.menucolor{
+	background-color: #9aeba6;
+	height: 12vh;
+	font-weight: bold;
+}
+.menutext{
+	color: white!important;
+	padding-right: 3rem!important;
+  padding-left: 3rem!important;
+}
+.iconos{
+	text-align: right;
+	padding: 2%;
+}
+.fal{
+	font-size: 30px;
+	padding: 2%;
+
+}
+.far{
+	font-size: 30px;
+	padding-right: 5%;
+}
+.imagenportada{
+
+}
+.tex-img1{
+  background-image: url("../imgs/doctor1.jpg");
+  background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+}
+.cards{
+	padding: 4%;
+}
+
+.separdor{
+	background-image: url("../imgs/sep_servicio.jpg");
+	background-size: cover;
+	height: 32vh;
+	background-repeat: no-repeat;
+}
+.servicios{
+	padding: 5%;
+}
+.img_icons{
+	width: 40%;
+}
+.iconosverdes{
+	text-align: center;
+  align-items: flex-end;
+}
+.contacto{
+	background-image: url("../imgs/contacto.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+.cont-form{
+	padding: 2%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.btn-enviar_formulario {
+  color: white;
+  background-color: #35c0ed;
+  border-color: transparent;
+  float: right;
+  font-weight: bold;
+  margin-top: -3%;
+}
+
+.btn-enviar_formulario:hover {
+  color: white;
+  background-color: #2f90b0;
+}
+.footer{
+	height: 16vh;
+	background-color:#2f90b0;
+}
